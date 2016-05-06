@@ -14,6 +14,7 @@
 		CE981CB31CDD2728004C1F5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE981CB11CDD2728004C1F5F /* LaunchScreen.storyboard */; };
 		CE981CBE1CDD2728004C1F5F /* minireto1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE981CBD1CDD2728004C1F5F /* minireto1Tests.swift */; };
 		CE981CC91CDD2728004C1F5F /* minireto1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE981CC81CDD2728004C1F5F /* minireto1UITests.swift */; };
+		CE981CD91CDD2B40004C1F5F /* minireto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE981CD81CDD2B40004C1F5F /* minireto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CE981CC41CDD2728004C1F5F /* minireto1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = minireto1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE981CC81CDD2728004C1F5F /* minireto1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minireto1UITests.swift; sourceTree = "<group>"; };
 		CE981CCA1CDD2728004C1F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE981CD81CDD2B40004C1F5F /* minireto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = minireto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				CE981CBC1CDD2728004C1F5F /* minireto1Tests */,
 				CE981CC71CDD2728004C1F5F /* minireto1UITests */,
 				CE981CA61CDD2728004C1F5F /* Products */,
+				CE981CD81CDD2B40004C1F5F /* minireto.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -258,6 +261,7 @@
 			files = (
 				CE981CAB1CDD2728004C1F5F /* ViewController.swift in Sources */,
 				CE981CA91CDD2728004C1F5F /* AppDelegate.swift in Sources */,
+				CE981CD91CDD2B40004C1F5F /* minireto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				CE981CCF1CDD2728004C1F5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE981CD01CDD2728004C1F5F /* Build configuration list for PBXNativeTarget "minireto1Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				CE981CD21CDD2728004C1F5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE981CD31CDD2728004C1F5F /* Build configuration list for PBXNativeTarget "minireto1UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				CE981CD51CDD2728004C1F5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
